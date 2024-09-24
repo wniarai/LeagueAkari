@@ -161,7 +161,6 @@ const formatPreviousTier = computed(() => {
   position: relative;
   height: 108px;
   width: 200px;
-  border-radius: 4px;
   align-items: center;
   justify-content: center;
   //background: white;

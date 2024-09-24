@@ -300,7 +300,8 @@ const handleMouseUp = (event: MouseEvent, puuid: string) => {
   background-color: rgb(45, 45, 45);
   border-radius: 4px;
   overflow: hidden;
-  width: 740px;
+  width: 724px;
+  margin-left: 9px;
   container: detailed-card / inline-size;
 }
 
@@ -464,11 +465,13 @@ table {
   width: 100%;
 
   &.win {
-    background-color: rgb(30, 39, 58);
+    background: linear-gradient(to right, #2B4257, #15161B, #15161B, #15161B, #15161B);
+    border-left: 4px solid #0069cb;
   }
 
   &.lose {
-    background-color: rgb(65, 39, 43);
+    background: linear-gradient(to right, #562D2E,#191416, #191416,#191416,#191416);
+    border-left: 4px solid rgb(158, 48, 1);
   }
 
   &.na {
@@ -480,11 +483,12 @@ table {
   height: 50px;
 
   .win &.self {
-    background-color: rgb(44, 57, 86);
+    background: linear-gradient(to right, #345c82,#172838, #172838, #172838, #15161B);
   }
 
   .lose &.self {
     background-color: rgb(90, 53, 59);
+    background: linear-gradient(to right, #5A353B,#382125, #382125,#382125,#191416);
   }
 
   .na &.self {

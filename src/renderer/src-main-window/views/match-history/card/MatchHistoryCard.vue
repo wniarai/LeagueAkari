@@ -498,7 +498,7 @@ const handleToggleShowDetailedGame = () => {
 .match-history-card {
   display: flex;
   padding: 0px 0px 0px 12px;
-  border-radius: 13px;
+  border-radius: 14px;
   box-sizing: border-box;
   background-color: #28344e;
   width: 740px;
@@ -768,7 +768,7 @@ const handleToggleShowDetailedGame = () => {
   font-weight: bold;
   transition: background-color 0.3s ease;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 6px;
 }
 
 .icon:hover {
@@ -820,8 +820,9 @@ const handleToggleShowDetailedGame = () => {
 }
 
 .remake {
-  border-left: 6px solid rgb(139, 139, 139);
-  background-color: rgb(54, 54, 54);
+  border-left: 4px solid rgb(139, 139, 139);
+  // background-color: rgb(54, 54, 54);
+  background: linear-gradient(to right, #414141,#191919, #191919,#191919,#191919);
 
   .game {
     .mode {
@@ -834,7 +835,7 @@ const handleToggleShowDetailedGame = () => {
   }
 
   .show-more {
-    background-color: rgb(121, 121, 121);
+    background-color: rgba(121, 121, 121, 0.466);
   }
 }
 
