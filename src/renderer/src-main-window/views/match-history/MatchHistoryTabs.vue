@@ -420,7 +420,12 @@ const handleShowMenu = (e: PointerEvent, puuid: string) => {
   }
 
   .search-zone {
-    width: 120px;
+    width: 165px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.201);
     vertical-align: bottom;
   }
 
@@ -431,19 +436,20 @@ const handleShowMenu = (e: PointerEvent, puuid: string) => {
     gap: 4px;
     box-sizing: border-box;
     font-size: 12px;
-    height: 22px;
+    height: 20px;
     outline: none;
     border: none;
-    border-radius: 2px;
-    width: 108px;
+    border-radius: 14px;
+    width: 159px;
     background-color: rgba(255, 255, 255, 0.06);
-    margin: 2px auto;
-    color: rgb(99, 226, 183);
+    margin: 3px auto;
+    color: #999999;
     cursor: pointer;
     transition: background-color 0.3s ease;
 
     &:hover {
       background-color: rgba(255, 255, 255, 0.15);
+      color: #bababa;
     }
 
     &:active {

@@ -161,6 +161,17 @@ useKeyboardCombo('AKARI', {
   min-width: var(--app-min-width);
   min-height: var(--app-min-height);
 
+  background: linear-gradient(rgb(167, 122, 24), rgb(17, 14, 15),rgb(17, 14, 15));
+
+  :deep(.n-menu-item) {
+      --n-item-height: 32px;
+      font-size: 12px;
+
+      .n-menu-item-content__icon .n-icon {
+        font-size: 16px;
+      }
+    }
+
   > .title-bar-area {
     position: absolute;
     top: 0;

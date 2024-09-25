@@ -294,13 +294,15 @@ const emits = defineEmits<{
     flex-shrink: 0;
     box-sizing: border-box;
 
-    :deep(.n-menu-item) {
-      --n-item-height: 32px;
-      font-size: 12px;
-
-      .n-menu-item-content__icon .n-icon {
-        font-size: 16px;
-      }
+    ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(48, 47, 47, 0.03);
+    pointer-events: none;
     }
 
     .bottom-operations {

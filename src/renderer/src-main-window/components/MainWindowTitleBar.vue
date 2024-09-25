@@ -450,7 +450,10 @@ const autoUpdateTaskShow = useCompleteVisibility(autoUpdateTaskEl, titleBarItems
 }
 
 .traffic {
-  height: 100%;
+  margin-top: 10px;
+  gap: 8px;
+  margin-right: 15px;
+  height: 35px;
   display: flex;
   justify-content: flex-end;
   transition: all 0.3s ease;
@@ -459,11 +462,14 @@ const autoUpdateTaskShow = useCompleteVisibility(autoUpdateTaskEl, titleBarItems
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 45px;
+    height: 35px;
+    width: 35px;
+    border-radius: 14px;
     font-size: 14px;
     transition: all 0.3s;
     -webkit-app-region: no-drag;
+
+    background: rgba(0, 0, 0, 0.201);
 
     &:active {
       filter: brightness(0.6);
